@@ -37,6 +37,13 @@ body {
     /* padding: 0 70px; */
 }
 
+@media (max-width:900px) {
+    .tpnl {
+       
+        gap: 50px;
+        /* padding: 0 70px; */
+    }
+}
 .box {
     width: 120px;
     display: flex;
