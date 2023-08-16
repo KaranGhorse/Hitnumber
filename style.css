@@ -37,13 +37,6 @@ body {
     /* padding: 0 70px; */
 }
 
-@media (max-width:900px) {
-    .tpnl {
-       
-        gap: 50px;
-        /* padding: 0 70px; */
-    }
-}
 .box {
     width: 120px;
     display: flex;
@@ -133,4 +126,32 @@ body {
     outline: none;
     border: none;
     font-weight: 500;
+}
+
+@media (max-width:900px) {
+    .tpnl {
+        gap: 50px;
+    }
+}
+@media (max-width:610px) {
+    #panel {
+        width: 100%;
+        border-radius: 1px;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .bpnl {
+        
+        padding: 10px 5px;
+    }
+    .box span {
+        font-size: 1.3rem;
+    }
+    .box h2 {
+        font-size: 1.1rem;
+    }
+    .tpnl {
+        gap: 10px;
+    }
 }
