@@ -154,4 +154,8 @@ body {
     .tpnl {
         gap: 10px;
     }
+    .restart{
+        width: 354px;
+        height: 242px;
+    }
 }
